@@ -66,22 +66,22 @@
 
 
 
-void CheckIfDevides(int num1, int num2)
-{
-    if(num1 % num2 == 0)
-    {
-        System.Console.WriteLine($"(num1), (num2) -> yes");
-        System.Console.WriteLine("!!!");
-    }
-    else
-    {
-        System.Console.WriteLine($"(num1), (num2) -> no, (num1 % num2)");
-    }
-}
+// void CheckIfDevides(int num1, int num2)
+// {
+//     if(num1 % num2 == 0)
+//     {
+//         System.Console.WriteLine($"(num1), (num2) -> yes");
+//         System.Console.WriteLine("!!!");
+//     }
+//     else
+//     {
+//         System.Console.WriteLine($"(num1), (num2) -> no, (num1 % num2)");
+//     }
+// }
 
-Console.Write("Input first number: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input second number: ");
-int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input first number: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input second number: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
 
-CheckIfDevides(num1, num2);
+// CheckIfDevides(num1, num2);
