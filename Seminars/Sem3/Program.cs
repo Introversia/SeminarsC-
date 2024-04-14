@@ -95,42 +95,42 @@
 
 // 3. Найдите произведение пар чисел в одномерном массиве. Результат запишите в новый массив.
 
-int[] ArrayOfPairs(int[] array)
-{
-    int[] numbers = new int[array.Length / 2];
-    for (int i =0; i < array.Length / 2; i++)
-    {
-        numbers[i] = array[array.Length - i - 1] * array[i];
-    }
-    return numbers;
-}
+// int[] ArrayOfPairs(int[] array)
+// {
+//     int[] numbers = new int[array.Length / 2];
+//     for (int i =0; i < array.Length / 2; i++)
+//     {
+//         numbers[i] = array[array.Length - i - 1] * array[i];
+//     }
+//     return numbers;
+// }
 
-int [] CreateArray(int size, int min, int max)
-{
-    int[] array = new int[size];
-    for (int i = 0; i < size; i++)
-    {
-        array[i] = new Random().Next(min, max+1);
-    }
-    return array;
-}
+// int [] CreateArray(int size, int min, int max)
+// {
+//     int[] array = new int[size];
+//     for (int i = 0; i < size; i++)
+//     {
+//         array[i] = new Random().Next(min, max+1);
+//     }
+//     return array;
+// }
 
-void PrintArray(int[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-    Console.WriteLine();
-}
+// void PrintArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write(array[i] + " ");
+//     }
+//     Console.WriteLine();
+// }
 
-System.Console.WriteLine("Input array size: ");
-int size = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Input minimal value of array element: ");
-int min = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Input maximum value of array element: ");
-int max = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Input array size: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Input minimal value of array element: ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Input maximum value of array element: ");
+// int max = Convert.ToInt32(Console.ReadLine());
 
-int[] array = CreateArray(size, min, max);
-PrintArray(array);
-PrintArray(ArrayOfPairs(array));
+// int[] array = CreateArray(size, min, max);
+// PrintArray(array);
+// PrintArray(ArrayOfPairs(array));
